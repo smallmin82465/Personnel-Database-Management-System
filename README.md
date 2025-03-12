@@ -11,7 +11,6 @@ This project is a comprehensive HR Management System designed to streamline the 
 - **User Authentication System**
   - Secure login/registration with password hashing
   - Role-based access control (admin/regular users)
-  - Session management for security
 
 - **Profile Management**
   - Detailed personal information management
@@ -20,7 +19,7 @@ This project is a comprehensive HR Management System designed to streamline the 
   - Language proficiency recording
   - Job preferences and skill sets
 
-- **Resume Management**
+- **Resume Management(not finish)**
   - 104 Resume (Taiwan job platform) PDF upload capability
   - Resume data extraction and parsing
   - Resume data editing and updating
@@ -124,7 +123,6 @@ This project is a comprehensive HR Management System designed to streamline the 
 - **使用者認證系統**
   - 密碼雜湊的安全登入/註冊功能
   - 基於角色的存取控制（管理員/一般使用者）
-  - 會話管理以確保安全性
 
 - **個人資料管理**
   - 詳細的個人資訊管理
@@ -133,7 +131,7 @@ This project is a comprehensive HR Management System designed to streamline the 
   - 語言能力紀錄
   - 求職偏好與專業技能
 
-- **履歷管理**
+- **履歷管理(尚未開放)**
   - 104人力銀行履歷 PDF 上傳功能
   - 履歷資料提取與分析
   - 履歷資料編輯與更新
@@ -146,7 +144,7 @@ This project is a comprehensive HR Management System designed to streamline the 
 
 ## 技術架構
 
-- **前端**: HTML, CSS, JavaScript 響應式設計
+- **前端**: HTML, CSS, JavaScript, rwd響應式設計
 - **後端**: PHP
 - **資料庫**: MySQL
 - **函式庫**:
