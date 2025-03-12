@@ -1,0 +1,82 @@
+/* 登入成功頁面特定樣式 */
+.user-info {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.user-info p {
+    margin-bottom: 10px;
+}
+
+.user-info strong {
+    color: #333;
+}
+
+/* 按鈕容器樣式 */
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+/* 按鈕樣式設定 */
+.btn-myprofile {
+    background-color: #2196F3;
+}
+
+.btn-uploadresume {
+    background-color: #4CAF50;
+}
+
+.btn-enteradmin {
+    background-color: #FF9800;
+}
+
+.btn-logout {
+    background-color: #f44336;
+}
+
+/* 按鈕懸停效果增強 */
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 在小屏幕上調整為單列 */
+@media (max-width: 480px) {
+    .btn-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 暗色模式支援 */
+@media (prefers-color-scheme: dark) {
+    .user-info {
+        background-color: #444;
+    }
+    
+    .user-info strong {
+        color: #e0e0e0;
+    }
+    
+    .btn-myprofile {
+        background-color: #1976D2;
+    }
+    
+    .btn-uploadresume {
+        background-color: #388E3C;
+    }
+    
+    .btn-enteradmin {
+        background-color: #E65100;
+    }
+    
+    .btn-logout {
+        background-color: #D32F2F;
+    }
+}

@@ -1,0 +1,45 @@
+/* 登入頁面特定樣式 */
+.container {
+    text-align: left;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+.remember-me label {
+    display: inline;
+    margin-bottom: 0;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+.register-link a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* 暗色模式支援 */
+@media (prefers-color-scheme: dark) {
+    .remember-me {
+        color: #ccc;
+    }
+    
+    .register-link a {
+        color: #64B5F6;
+    }
+}

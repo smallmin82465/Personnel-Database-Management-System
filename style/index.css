@@ -1,0 +1,33 @@
+/* 首頁特定樣式 */
+.container {
+    text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.btn-login {
+    background-color: #4CAF50;
+}
+
+.btn-register {
+    background-color: #2196F3;
+}
+
+/* 平板和桌面裝置樣式 */
+@media (min-width: 480px) {
+    .btn-group {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .btn {
+        width: auto;
+        padding: 12px 30px;
+    }
+}
