@@ -75,14 +75,6 @@ This project is a comprehensive HR Management System designed to streamline the 
 
 6. Access the system through your web browser.
 
-## Security Notes
-
-- Ensure your web server is properly configured with SSL
-- Regularly update the admin password
-- Consider implementing additional security measures like:
-  - IP restriction for admin access
-  - Two-factor authentication
-  - Regular security audits
 
 ## File Structure
 
@@ -187,14 +179,6 @@ This project is a comprehensive HR Management System designed to streamline the 
 
 6. 透過網頁瀏覽器訪問系統。
 
-## 安全注意事項
-
-- 確保您的網頁伺服器已正確配置SSL
-- 定期更新管理員密碼
-- 考慮實施其他安全措施，如：
-  - 管理員訪問的IP限制
-  - 雙因素認證
-  - 定期安全審計
 
 ## 檔案結構
 
