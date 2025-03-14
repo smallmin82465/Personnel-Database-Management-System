@@ -149,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 WHERE user_id = ?
             ");
             
-            // 使用預處理語句，但不使用 bind_param
+            // 使用預處理語句，但不使用 bind_param 因為NULL值會有問題
             $sql_update = "
                 UPDATE resume SET 
                 chinese_name = '" . $conn->real_escape_string($chinese_name) . "', 
@@ -381,7 +381,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $stmt2->close();
                 $conn2->close();
             } catch (Exception $e2) {
-                // 忽略此處的錯誤，因為我們已經知道資料已存入資料庫
+                // 忽略此處的錯誤，沒影響先不處理
             }
         } else {
             // 其他錯誤類型，正常顯示錯誤訊息
